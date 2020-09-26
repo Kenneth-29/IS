@@ -80,14 +80,16 @@ si = principal_amount*rate*time
 print("The Simple interest of %d for %d years at %d percent, is %.2f"% (principal_amount, time, (100*rate),si))
 
 # Control Structures
-x = 21
+var5 = input("Enter any number: ")
+x = int(var5)
 if (x%2)==0:
-    print("The number is odd")
+    print("The number is even")
 else:
     print("The number is odd")
 
 # Grades, A is above 80, B is 60-80, C is 50 to 60, and below 50 is D
-y = 68
+var6 = input("Enter student grade: ")
+y = int(var6)
 if(y<50):
     print("Your grade is D")
 elif(y<60):
