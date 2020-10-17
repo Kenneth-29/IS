@@ -1,0 +1,11 @@
+import os
+print(os.getcwd())
+os.chdir('C:\\Users\\kenne\\PycharmProjects')
+print(os.getcwd())
+os.chdir('C:\\Users\\kenne\\PycharmProjects\\IS')
+print(os.getcwd())
+print(os.listdir('C:\\Users'))
+print(os.listdir())
+os.rename('images', 'testing_images')
+os.rmdir('training_images')
+print(os.listdir())
